@@ -1,0 +1,489 @@
+/*
+Theme Name:   Pedagogy 2016 (base)
+Theme URI:    http://dondempsey.com/2016
+Description:  A framework for teaching web design and development. Based on HTML 5 Boilerplate. https://html5boilerplate.com/
+Author:       Don Dempsey
+Author URI:   http://dondempsey.com/2016
+Version:      0.2
+*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* ------- [ Basic Styles ] -------- */
+
+body {
+    color: #2F2F2F;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    /*line-height: 1.6em;*/
+    line-height: 1.45;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    /* Fix for webkit rendering */
+}
+
+/* ------- [ Typography (based on the Augmented Fourth - 1.414) http://type-scale.com ] ------- */
+
+p {
+    font-size: 1em;
+    margin: 0 0 10px 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: normal;
+    margin: 0 0 10px 0;
+    color: #2F2F2F;
+    line-height: 1.2;
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 3.157em;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    /*font-size: 2.625em;*/
+    font-size: 2.369em;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 1.777em;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.333em;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 0.75em;
+}
+
+
+/* -------- [ Site Links ] -------- */
+
+a:link {
+    color: #000000;
+    outline: 0;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+    color: #56627A;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #56627A;
+}
+
+.more {
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.more a:link {
+    text-decoration: none;
+}
+
+.more a:hover {
+    text-decoration: none;
+}
+
+
+/* ------- [ Simple Grid ] ------- */
+
+
+/* 2 Columns */
+
+.columns_2 {
+    width: 460px;
+    float: left;
+    margin-right: 20px;
+}
+
+.columns_2:last-of-type {
+    margin-right: 0;
+}
+
+
+/* 3 Columns */
+
+.columns_3 {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.columns_3:last-of-type {
+    margin-right: 0;
+}
+
+
+/* 4 Columns */
+
+.columns_4 {
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+}
+
+.columns_4:last-of-type {
+    margin-right: 0;
+}
+
+
+/* 5 Columns */
+
+.columns_5 {
+    width: 172px;
+    float: left;
+    margin-right: 20px;
+}
+
+.columns_5:last-of-type {
+    margin-right: 0;
+}
+
+
+/* 6 Columns */
+
+.columns_6 {
+    width: 140px;
+    float: left;
+    margin-right: 20px;
+}
+
+.columns_6:last-of-type {
+    margin-right: 0;
+}
+
+/**
+ * Clearfix For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+/* ------- [ Misc. HTML ] -------
+
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+.clearfix:after,
+.container:after {
+    clear: both;
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+*/
+.remove-bottom {
+    margin-bottom: 0;
+}
+
+.half-bottom {
+    margin-bottom: 10px;
+}
+
+.add-bottom {
+    margin-bottom: 20px;
+}
+
+.credit {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #888;
+    text-align: left;
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.align-center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.align-left {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.screen-reader-text {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+pre {
+    background: none repeat scroll 0 0 #f7f7f7;
+    color: #222;
+    line-height: 18px;
+    margin-bottom: 18px;
+    padding: 1.5em;
+}
+
+ins {
+    background: none repeat scroll 0 0 #ffc;
+    text-decoration: none;
+}
+
+abbr[title],
+acronym {
+    cursor: help;
+}
+
+ul {
+    list-style: square outside none;
+    margin: 0 0 18px 1.5em;
+}
+
+ol {
+    list-style: decimal outside none;
+    margin: 0 0 18px 1.5em;
+    line-height: 1.375em;
+}
+
+ol ol {
+    list-style: upper-alpha outside none;
+}
+
+ol ol ol {
+    list-style: lower-roman outside none;
+}
+
+ol ol ol ol {
+    list-style: lower-alpha outside none;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin-bottom: 0;
+}
+
+dl {
+    margin: 0 0 24px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 18px;
+}
+
+hr {
+    border: 0 none;
+    height: 1px;
+    background: #e7e7e7;
+    clear: both;
+    display: block;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+figcaption {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+
+/* ------- [ Table ] ------- */
+
+table {
+    border: 1px solid #777;
+    text-align: left;
+    width: 100%;
+}
+
+caption {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+th,
+td {
+    font-size: .8em;
+    padding: .65em;
+}
+
+thead,
+th {
+    background: #666666;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+tr:nth-child(odd) {
+    background: #ccc;
+}
+
+tr:hover {
+    background: #aaa;
+}
+
+td {
+    border-right: 1px solid #777;
+}
+
+
+/* ------- [ Blockquotes ] -------  */
+
+blockquote {
+    margin: 0 0 20px;
+    padding: 9px 20px 0 19px;
+    border-left: 1px solid #ddd;
+    font-size: 1.2em;
+    line-height: 1.45833333em;
+    font-weight: 900;
+    color: #2fa285;
+    font-style: italic;
+}
+
+blockquote cite {
+    font-style: normal;
+    font-weight: bold;
+    display: block;
+    font-size: .8em;
+    padding-top: 8px;
+    color: #ffffff;
+}
+
+blockquote cite:before {
+    content: "\2014 \0020";
+}
+
+blockquote cite a,
+blockquote cite a:visited,
+blockquote cite a:visited {
+    color: #555;
+}
+
+
+/* ------- [ User Added CSS ] ------- */
+
+.container {
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden; /* -- clearfix for container -- */
+}
+
+
+/* CSS gradient backgrounds that generate a Baseline Grid */
+/* by: Mike Morrison, Soholaunch.com */
+/* You don't have to leave this credit comment in, but it would be nice of you. */
+
+/* Based on a 16col/22px baseline grid with 960px overall width */
+.baseline-grid {
+	background-image: -webkit-linear-gradient(0deg, rgba(200,0,0,.2) 40px, transparent 40px),
+							-webkit-linear-gradient(top, rgba(0,0,0,0) 95%, rgba(56,255,255,.8) 100%);
+	background-image: -moz-linear-gradient(0deg, rgba(200,0,0,.2) 40px, transparent 40px),
+							-moz-linear-gradient(top, rgba(0,0,0,0) 95%, rgba(56,255,255,.8) 100%);
+	background-image: -o-linear-gradient(0deg, rgba(200,0,0,.2) 40px, transparent 40px),
+							-o-linear-gradient(top, rgba(0,0,0,0) 95%, rgba(56,255,255,.8) 100%);
+	background-size: 60px 100%, 100% 22px;
+	background-position: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+/* browser test
+
+.container {
+    background: aliceblue;
+}
+p {
+  background: pink;
+}
+img {
+  background: yellow;
+}
+h2 {
+  background: orange;
+}
+h3 {
+  background: lightblue;
+}
+
+.highlight {
+    color: #ffda96;
+}
+*/
