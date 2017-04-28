@@ -96,69 +96,16 @@ video{
 }
 
 
-/* Cards */
+/* History */
 
-	.cards {
-		width: 100%;
-		padding: 100px 0;
-		background: #EEEEEE;
-		float: left;
-		text-align: center;
-	}
-	.container {
-		width: 940px;
-		margin: 0 auto;
-	}
-	
-	.section-head {
-		font-family: 'Roboto Slab', serif;
-		font-size: 2em;
-		font-weight: 100;
-		padding-bottom: 20px;
-	}
-.section-copy {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 1em;
-	padding: 0 100px 20px;
-}
-	
-	.fa-usb, .fa-balance-scale, .fa-cogs {
-		font-size: 2em;
-		color: #FFFFFF;
-		text-shadow: 2px 2px 5px #6e6e6e;
-		margin-bottom:  10px;
-	}
-
-	
-	.card-description {
-		font-family: 'Roboto', sans-serif;
-		background-color: #FFFFFF;
-		padding: 40px;
-		box-shadow: 0 3px 6px rgba(0,0,0,.2);
-		border-top-left-radius: 10px;
-		border-bottom-right-radius: 10px; 
-	
-	}
-	.columns_3 {
-		width: 300px;
-		float: left;
-		margin-right: 20px;
-	}
-	.columns_3:last-of-type {
-		margin-right: 0;
-	}
-
-/* About Us */
-
-.about {
+.history {
 	width: 100%;
 	padding: 100px 0;
 	background-color: #ffffff;
 	float: left;
 }
 
-.about h4{
+.history h4{
 	margins: 0;
 		padding: 0;
 }
@@ -183,7 +130,7 @@ video{
 
 .drk-otl-btn:hover {
 	color: #000;
-	background: yellow;
+	background: #FF6060;
 }
 
 /* Customer Testimonials */
@@ -502,16 +449,16 @@ footer {
 	width: 100%;
 	padding: 50px 0;
 	text-align: center;
-	background-color: #3c3c3c;
+	background-color: #A30303;
 }
 
 footer a:link {
-	color: #959595;
+	color: #EAE8C0;
 	text-decoration: none;
 }
 
 footer a:visited {
-	color: #959595;
+	color: #EAE8C0;
 }
 
 footer a:hover {
@@ -524,7 +471,7 @@ footer a:active {
 
 .copyright {
 	width: 100%;
-	color: #959595;
+	color: #EAE8C0;
 }
 
 .copyright p {
@@ -536,7 +483,7 @@ footer a:active {
 .fa-facebook-square {
 	font-size: 2em;
 	margin: 20px 5px 0 5px;
-	color: #959595;
+	color: #FF6060;
 }
 
 .fa-linkedin-square:hover,
