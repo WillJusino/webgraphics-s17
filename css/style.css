@@ -101,13 +101,15 @@ video{
 .history {
 	width: 100%;
 	padding: 100px 0;
-	background-color: #ffffff;
+	color: #ffffff;
+	background-color: #A30303;
 	float: left;
 }
 
 .history h4{
 	margins: 0;
-		padding: 0;
+	padding: 0;
+	color: #ffffff;
 }
 
 .drk-otl-btn {
