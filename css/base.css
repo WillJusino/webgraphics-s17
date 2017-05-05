@@ -16,7 +16,7 @@ Version:      0.2
 body {
     color: #2F2F2F;
     background-color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 100;
     /*line-height: 1.6em;*/
@@ -44,33 +44,33 @@ h6 {
     line-height: 1.2;
 }
 h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Cormorant', serif;
     font-weight: 700;
     font-size: 3.157em;
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Cormorant', serif;
     font-weight: 200;
     /*font-size: 2.625em;*/
     font-size: 2.369em;
 }
 
 h3 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Cormorant', serif;
     font-weight: 100;
     font-size: 1.777em;
     text-align: center;
 }
 
 h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     font-size: 1.333em;
 }
 
 h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     font-size: 0.9em;
     text-transform: uppercase;
@@ -78,7 +78,7 @@ h5 {
 }
 
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     font-size: 0.75em;
 }
