@@ -85,6 +85,7 @@ nav li a:active {
 	line-height: 1.2;
 	text-align: center;
 	text-transform: uppercase;
+	padding-top: 90px;
 }
 /* Introduction */
 
@@ -93,6 +94,11 @@ nav li a:active {
 	padding: 100px 0 90px 0;
 	background-color: #ffffff;
 	float: left;
+}
+
+.introduction h2 {
+	text-align: center;
+	padding-bottom: 70px;
 }
 
 
@@ -108,7 +114,7 @@ nav li a:active {
 
 .history h4{
 	font-family: 'Cormorant', serif;
-	margins: 0;
+	margin: 0;
 	padding: 0;
 	color: #ffffff;
 }
@@ -118,9 +124,8 @@ nav li a:active {
 	padding: 0 15px;
 	text-align: center;
 	font-weight: 300;
-	font-size: 1em;
+	font-size: .8em;
 	line-height: 36px;
-	border: 1px solid #000;
 	border-radius: 5px;
 	cursor: pointer;
 	margin: 20px 0;
@@ -147,8 +152,8 @@ nav li a:active {
 	float: left;
 }
 
-.mausoleum h4{
-	margin-bottom: 10px;
+.mausoleum h2{
+	padding-bottom: 70px;
 }
 
 .mausoleum img {
@@ -167,8 +172,8 @@ nav li a:active {
 	float: right;
 }
 
-.river h3{
-	margin-bottom: 10px;
+.river h2{
+	padding-bottom: 70px;
 	color: #EAE8C0;
 }
 
@@ -191,8 +196,8 @@ nav li a:active {
 	float: left;
 }
 
-.gallery h4{
-	margin-bottom: 10px;
+.gallery h2{
+	padding-bottom: 70px;
 }
 
 .gallery img {
@@ -205,15 +210,15 @@ nav li a:active {
 
 .visit {
 	width: 100%;
-	padding: 70px 0;
+	padding: 100px 0;
 	background-color: #A30303;
 	image-orientation: center;
 	text-align: center;
 	float: left;
 }
 
-.visit h3{
-	margin-bottom: 10px;
+.visit h2{
+	padding-bottom: 0;
 	color: #EAE8C0;	
 }
 
@@ -239,8 +244,9 @@ nav li a:active {
 }
 
 .contact h2 {
-	padding-bottom: 50px;
-	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 0px;
 }
 
 .contact p {
