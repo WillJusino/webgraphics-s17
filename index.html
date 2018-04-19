@@ -28,12 +28,20 @@ rel="stylesheet">
 	<a href="#" class="branding">The First Qin Emperor</a>
 	<nav>
 		<ul class="navigation">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">History</a></li>
-			<li><a href="#">Mausoleum</a></li>
-			<li><a href="#">Gallery</a></li>
-			<li><a href="#">Visit</a></li>
-			<li><a href="#">Contact</a></li>	
+			<li><a data-scroll-nav="0">Home</a>
+			</li>
+			<li><a data-scroll-nav="1">History</a>
+			</li>
+			<li><a data-scroll-nav="2">Mausoleum</a>
+			</li>
+			<li><a data-scroll-nav="3">River</a>
+			</li>
+			<li><a data-scroll-nav="4">Gallery</a>
+			</li>
+			<li><a data-scroll-nav="5">Visit</a>
+			</li>
+			<li><a data-scroll-nav="6">Contact</a>
+			</li>	
 		</ul>	
 	</nav>
 	</div><!-- end container -->
@@ -41,6 +49,7 @@ rel="stylesheet">
 
 
 <section class="hero-image">
+<div class="home" data-scroll-index="0">
 <div class="hero-image">
 <div class="container">
 <div class="image-overlay">
@@ -50,6 +59,7 @@ rel="stylesheet">
 <img src="images/soldier-down+overlay.jpg" alt="Soldier Down">
 
 
+</div>
 </div><!-- end hero image -->
 </section>
 
@@ -63,7 +73,7 @@ rel="stylesheet">
 		<div class="columns_2">
 			<p>The answers to a number of historical mysteries may lie buried inside that tomb, but whether modern people will ever see inside this mausoleum depends not just on the Chinese government, but on science.“The big hill, where the emperor is buried — nobody’s been in there,” said archaeologist Kristin Romey, curatorial consultant for the Terracotta Warrior exhibition at New York City’s Discovery Times Square.
 </p>
-	
+
 		</div>
 	</div>
 		
@@ -71,8 +81,7 @@ rel="stylesheet">
 	</div><!-- end container --> 
 </section>
 
-
-
+<div class="history" data-scroll-index="1">
 <section class="history">
 <div class="container">
 	<div class="columns_2">
@@ -84,12 +93,14 @@ rel="stylesheet">
 		<p>Qin Shi Huang (pronounced “chin shuh hwang”) was born in 259 B.C., first son to the king of Qin, one of six independent kingdoms inside modern China. These kingdoms had been warring for more than 200 years, but through a combination of military strength, strategy and natural disasters, Qin Shi Huang conquered them all, proclaiming himself not just a king, but also an emperor — the first of China.</p>
 		<a href="#" class="drk-otl-btn">Learn More</a>
 	</div>
-</div>	
+	</div>
+
 </section>
+	</div>
 
 	
 
-
+<div class="mausoleum" data-scroll-index="2">
 <section class="mausoleum">
 	<div class="container">
 		<h2>Inside The Mausoleum</h2>
@@ -116,7 +127,9 @@ rel="stylesheet">
 		</div>
 	</div>	
 </section>
+</div>
 
+<div class="river" data-scroll-index="3">
 <section class="river">
 	<div class="container">
 		<h2>Rivers of Mercury</h2>
@@ -139,8 +152,9 @@ rel="stylesheet">
 	</div>
 	</div>	
 </section>
+</div>
 
-
+<div class="gallery" data-scroll-index="4">
 <section class="gallery">
 	<div class="container">
 		<h2>Gallery</h2>
@@ -198,9 +212,10 @@ rel="stylesheet">
 			
 		</div>	
 </section>
+</div>
 
 
-
+<div class="visit" data-scroll-index="5">
 <section class="visit">
 	<div class="container">
 		<h2>Visit</h2>
@@ -226,8 +241,9 @@ rel="stylesheet">
 		</div>	
 		</div>
 </section>
+</div>
 
-
+<div class="contact" data-scroll-index="6">
 <section class="contact">
 	<div class="container">
 		<h2>Contact</h2>
@@ -249,6 +265,7 @@ N34 22 60 E109 5 60.</p>
 		</div>
 	</div>
 </section>
+</div>
 
 <footer>
 	<div class="copyright">
@@ -264,6 +281,17 @@ N34 22 60 E109 5 60.</p>
 		
 	</div>
 </footer>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='js/hugrid.js'></script>
+<script src='js/hugrid-functions.js'></script>
+<script src='js/scrollIt.min.js'></script>
+<script src='js/aos.js'></script>
+<script src='js/Chart.Doughnut.js'></script>
+<script src='js/Chart.js'></script>
+<script src='js/responsiveslides.min.js'></script>
+
+	<script  src="js/index.js"></script>
 
 </body> 
 </html>

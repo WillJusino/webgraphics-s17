@@ -13,14 +13,16 @@ header{
 	background: #A30303;
 }
 .branding {
-	background: url("../images/solier-306-RTXQUK1.png") no-repeat;
-	width: 170px;
+	background: url("../images/qin-emperor-2.png") no-repeat;
+	width: 270px;
 	height: 90px;
 	float: left;
 	display: block;
 	text-indent: -999em;
 	overflow: hidden;
+	color: #EAE8C0;
 }
+
 nav {
 	margin-top: 40px;
 	float: right;
